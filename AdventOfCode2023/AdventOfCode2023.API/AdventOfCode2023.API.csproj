@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Day1-ExtractNumbersFromText\Day1-ExtractNumbersFromText.csproj" />
+    <ProjectReference Include="..\Day2-Cubes\Day2-Cubes.csproj" />
+    <ProjectReference Include="..\Day5-Seeds\Day5-Seeds.csproj" />
+    <ProjectReference Include="..\Day7-CamelCards\Day7-CamelCards.csproj" />
+  </ItemGroup>
+
+</Project>
